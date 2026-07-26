@@ -21,12 +21,19 @@ npm run build
 npm test
 ```
 
+Статическая production-сборка создаётся в каталоге `out`.
+
+## Деплой
+
+Push в `main` автоматически собирает и публикует сайт через GitHub Pages.
+Корневой домен проекта — `bobot.click`.
+
 ## Основные файлы
 
 - `app/page.tsx` — содержимое страницы и интерактивные элементы;
 - `app/globals.css` — визуальная система и адаптивная вёрстка;
 - `app/layout.tsx` — метаданные страницы;
-- `.openai/hosting.json` — конфигурация хостинга.
+- `.github/workflows/pages.yml` — публикация в GitHub Pages.
 
 ## Проекты
 
