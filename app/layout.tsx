@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "BOBOT — персональная интернет-мастерская",
+  title: "BOBOT",
   description:
     "Играю со шрифтами в интернете и иногда делаю полезные проекты.",
 };
