@@ -342,7 +342,7 @@ export default function Home() {
       <section className="projects" aria-labelledby="projects-heading">
         <div className="projects-intro">
           <p className="section-number">01 / ПРОЕКТЫ</p>
-          <h2 id="projects-heading">Сейчас в работе</h2>
+          <h2 id="projects-heading">Проекты</h2>
         </div>
 
         <a
@@ -352,20 +352,18 @@ export default function Home() {
           rel="noreferrer"
         >
           <div className="card-top">
-            <span className="card-status">● LIVE</span>
+            <span className="card-status">● ЗАКРЫТ</span>
             <span className="card-year">2026</span>
           </div>
           <div className="card-body">
             <p className="card-kicker">SaaS / B2B / AI</p>
             <h3>Propose</h3>
             <p>
-              Коммерческие предложения,
-              <br />
-              которые помогают продавать.
+              AI-сервис для создания коммерческих предложений. Проект закрыт в сентябре 2026 года.
             </p>
           </div>
           <div className="card-footer">
-            <span>Открыть проект</span>
+            <span>О проекте</span>
             <span className="arrow" aria-hidden="true">↗</span>
           </div>
         </a>
